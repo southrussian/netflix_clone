@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		589AD3E52B065AFA00E72E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3E42B065AFA00E72E83 /* AppDelegate.swift */; };
 		589AD3E72B065AFA00E72E83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3E62B065AFA00E72E83 /* SceneDelegate.swift */; };
-		589AD3E92B065AFA00E72E83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3E82B065AFA00E72E83 /* ViewController.swift */; };
+		589AD3E92B065AFA00E72E83 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3E82B065AFA00E72E83 /* MainTabBarViewController.swift */; };
 		589AD3EC2B065AFA00E72E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589AD3EA2B065AFA00E72E83 /* Main.storyboard */; };
 		589AD3EE2B065AFC00E72E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589AD3ED2B065AFC00E72E83 /* Assets.xcassets */; };
 		589AD3F12B065AFC00E72E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 589AD3EF2B065AFC00E72E83 /* LaunchScreen.storyboard */; };
+		589AD3FA2B07FE4A00E72E83 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3F92B07FE4A00E72E83 /* HomeViewController.swift */; };
+		589AD3FC2B07FE5E00E72E83 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3FB2B07FE5E00E72E83 /* UpcomingViewController.swift */; };
+		589AD3FE2B07FE7300E72E83 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3FD2B07FE7300E72E83 /* SearchViewController.swift */; };
+		589AD4002B07FE8100E72E83 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3FF2B07FE8100E72E83 /* DownloadsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		589AD3E12B065AFA00E72E83 /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		589AD3E42B065AFA00E72E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		589AD3E62B065AFA00E72E83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		589AD3E82B065AFA00E72E83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		589AD3E82B065AFA00E72E83 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		589AD3EB2B065AFA00E72E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		589AD3ED2B065AFC00E72E83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		589AD3F02B065AFC00E72E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		589AD3F22B065AFC00E72E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		589AD3F92B07FE4A00E72E83 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		589AD3FB2B07FE5E00E72E83 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		589AD3FD2B07FE7300E72E83 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		589AD3FF2B07FE8100E72E83 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		589AD3E32B065AFA00E72E83 /* NetflixClone */ = {
 			isa = PBXGroup;
 			children = (
+				589AD3F82B07FE1E00E72E83 /* Controllers */,
 				589AD3E42B065AFA00E72E83 /* AppDelegate.swift */,
 				589AD3E62B065AFA00E72E83 /* SceneDelegate.swift */,
-				589AD3E82B065AFA00E72E83 /* ViewController.swift */,
+				589AD3E82B065AFA00E72E83 /* MainTabBarViewController.swift */,
 				589AD3EA2B065AFA00E72E83 /* Main.storyboard */,
 				589AD3ED2B065AFC00E72E83 /* Assets.xcassets */,
 				589AD3EF2B065AFC00E72E83 /* LaunchScreen.storyboard */,
 				589AD3F22B065AFC00E72E83 /* Info.plist */,
 			);
 			path = NetflixClone;
+			sourceTree = "<group>";
+		};
+		589AD3F82B07FE1E00E72E83 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				589AD3F92B07FE4A00E72E83 /* HomeViewController.swift */,
+				589AD3FB2B07FE5E00E72E83 /* UpcomingViewController.swift */,
+				589AD3FD2B07FE7300E72E83 /* SearchViewController.swift */,
+				589AD3FF2B07FE8100E72E83 /* DownloadsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				589AD3E92B065AFA00E72E83 /* ViewController.swift in Sources */,
+				589AD3FE2B07FE7300E72E83 /* SearchViewController.swift in Sources */,
+				589AD3E92B065AFA00E72E83 /* MainTabBarViewController.swift in Sources */,
+				589AD4002B07FE8100E72E83 /* DownloadsViewController.swift in Sources */,
 				589AD3E52B065AFA00E72E83 /* AppDelegate.swift in Sources */,
 				589AD3E72B065AFA00E72E83 /* SceneDelegate.swift in Sources */,
+				589AD3FC2B07FE5E00E72E83 /* UpcomingViewController.swift in Sources */,
+				589AD3FA2B07FE4A00E72E83 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
