@@ -24,9 +24,11 @@ class MainTabBarViewController: UITabBarController {
         downloadsVC.tabBarItem.image = UIImage(systemName: "arror.down.to.line")
         
         homeVC.tabBarItem.title = "Home"
-        upcomingVC.tabBarItem.title = "Upcoming"
-        searchVC.tabBarItem.title = "Search"
+        upcomingVC.tabBarItem.title = "Coming Soon"
+        searchVC.tabBarItem.title = "Top Search"
         downloadsVC.tabBarItem.title = "Downloads"
+        
+        tabBar.tintColor = .label
         
         setViewControllers([homeVC, upcomingVC, searchVC, downloadsVC], animated: true)
 
