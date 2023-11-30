@@ -21,7 +21,7 @@ class MainTabBarViewController: UITabBarController {
         homeVC.tabBarItem.image = UIImage(systemName: "house.fill")
         upcomingVC.tabBarItem.image = UIImage(systemName: "play.fill")
         searchVC.tabBarItem.image = UIImage(systemName: "magnifyingglass")
-        downloadsVC.tabBarItem.image = UIImage(systemName: "arror.down.to.line")
+        downloadsVC.tabBarItem.image = UIImage(systemName: "arrow.down.to.line")
         
         homeVC.tabBarItem.title = "Home"
         upcomingVC.tabBarItem.title = "Coming Soon"
