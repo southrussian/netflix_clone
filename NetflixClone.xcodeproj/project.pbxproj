@@ -45,6 +45,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		584634172B19F6D700F9DF12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		584634182B19F6DD00F9DF12 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		589AD3D82B065AFA00E72E83 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +78,8 @@
 		589AD3E32B065AFA00E72E83 /* NetflixClone */ = {
 			isa = PBXGroup;
 			children = (
+				584634182B19F6DD00F9DF12 /* ViewModels */,
+				584634172B19F6D700F9DF12 /* Views */,
 				589AD3F82B07FE1E00E72E83 /* Controllers */,
 				589AD3E42B065AFA00E72E83 /* AppDelegate.swift */,
 				589AD3E62B065AFA00E72E83 /* SceneDelegate.swift */,
