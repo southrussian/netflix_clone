@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5846341B2B1A064200F9DF12 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5846341A2B1A064200F9DF12 /* CollectionViewTableViewCell.swift */; };
 		589AD3E52B065AFA00E72E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3E42B065AFA00E72E83 /* AppDelegate.swift */; };
 		589AD3E72B065AFA00E72E83 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3E62B065AFA00E72E83 /* SceneDelegate.swift */; };
 		589AD3E92B065AFA00E72E83 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 589AD3E82B065AFA00E72E83 /* MainTabBarViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5846341A2B1A064200F9DF12 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		589AD3E12B065AFA00E72E83 /* NetflixClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetflixClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		589AD3E42B065AFA00E72E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		589AD3E62B065AFA00E72E83 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		584634172B19F6D700F9DF12 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5846341A2B1A064200F9DF12 /* CollectionViewTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -57,6 +60,13 @@
 			children = (
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		584634192B1A048700F9DF12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		589AD3D82B065AFA00E72E83 = {
@@ -78,6 +88,7 @@
 		589AD3E32B065AFA00E72E83 /* NetflixClone */ = {
 			isa = PBXGroup;
 			children = (
+				584634192B1A048700F9DF12 /* Models */,
 				584634182B19F6DD00F9DF12 /* ViewModels */,
 				584634172B19F6D700F9DF12 /* Views */,
 				589AD3F82B07FE1E00E72E83 /* Controllers */,
@@ -176,6 +187,7 @@
 			files = (
 				589AD3FE2B07FE7300E72E83 /* SearchViewController.swift in Sources */,
 				589AD3E92B065AFA00E72E83 /* MainTabBarViewController.swift in Sources */,
+				5846341B2B1A064200F9DF12 /* CollectionViewTableViewCell.swift in Sources */,
 				589AD4002B07FE8100E72E83 /* DownloadsViewController.swift in Sources */,
 				589AD3E52B065AFA00E72E83 /* AppDelegate.swift in Sources */,
 				589AD3E72B065AFA00E72E83 /* SceneDelegate.swift in Sources */,
