@@ -27,6 +27,11 @@ class CollectionViewTableViewCell: UITableViewCell {
         collectionView.dataSource = self
     }
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        collectionView.frame = contentView.bounds
+    }
+    
     required init?(coder: NSCoder) {
         fatalError()
     }
